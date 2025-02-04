@@ -7,3 +7,11 @@ This is my portfolio website.
 - CSS
 - JavaScript
 
+## Features
+
+- Responsive design
+- Customizable
+- Easy to use
+- Well-organized
+- Well-documented
+
