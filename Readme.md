@@ -14,7 +14,7 @@ This is my portfolio website.
 
 ## portfolio live
 
-- [Live Demo](https://qwyzh.github.io/portfolio/)
+- [Live Demo]([https://qwyzh.github.io/portfolio](https://portfolio-v-001.netlify.app/))
 
 ## Portfolio project Links
 
