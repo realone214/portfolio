@@ -20,10 +20,10 @@
   --lightmode-toggle-hover-text: #ffffff;
   flex-wrap: wrap;
 }
+
 html {
   scroll-behavior: smooth;
 }
-
 
 body {  
  
@@ -31,22 +31,22 @@ body {
   p, label {
     color: var(--darkmode-text);
   }
+
   h3 {
-    font-size: clamp(30px, 2vw, 3rem);
+    font-size: clamp(25px, 2vw, 30px);
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     font-weight:600;
     color: var(--darkmode-title-text-color);
   }
+
   h2 {
-    font-size: clamp(40px, 3vw, 4rem);
+    font-size: clamp(35px, 2vw, 40px);
   }
 }
 
-
-
 nav {
-  background-color: var(--darkmode-bg );
+  background-color: var(--darkmode-nav-background );
   position: sticky;
   position: -webkit-sticky;
   display: flex;
@@ -63,24 +63,21 @@ nav {
 
 @media screen and (max-width: 986px) {
   ul.nav-links {
-    
     position: absolute;
     top: 5rem;
-   
     right: 0;
     width: 200px;
     display: none;
     background-color: #f28623;
     li {
-    padding: 1rem;
-    text-align: center;
+      padding: 1rem;
+      text-align: center;
     }
   }
 }
 
 .nav-links.show {
   display:block;
-  
 }
 
 @media screen and (min-width: 987px) {
@@ -135,15 +132,13 @@ main {
   }
 }
 
-
 section {
   max-width: 1280px;
   margin: auto;
   display: grid;
-  padding: .5rem;
-  padding-top: 10vh;
+  padding: 1rem;
+  padding-top: 5vh;
   min-height: 100%;
- 
 }
 
 section div {
@@ -155,19 +150,20 @@ section div {
 .hero {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-
   justify-content: space-between;
   align-items: center;
-  
   color: #7e84bd;
+
   h3 {
     color: #7281a2;
   }
+
   h1 {
-    font-size: clamp(4rem, 6vw, 6rem);
-    font-weight: 800;
+    font-size: clamp(4rem, 5vw, 70PX);
+    font-weight: 700;
     color: #ffffff;
   }
+
   img {
     width: 100%;   
     padding: 1rem;
@@ -191,7 +187,6 @@ section div {
   .my-skills {
     background-color: rgb(9, 9, 68);
     border-radius: 1rem;
-    
   }
 }
 
@@ -294,7 +289,6 @@ section div {
 }
 
 .about-me {
-  
   .about-me-wrapper {
     display: flex;
     justify-content: space-around;
@@ -320,6 +314,7 @@ section div {
     gap: 1rem;
     margin-block: 2rem;
   }
+
   .globe-icon {
     max-width: 300px;
     img {
@@ -347,6 +342,7 @@ section div {
     label {
       color: #ffffff;
     }
+
     button {
       background-color: #fc8c21;
       color: #180a57;
@@ -367,6 +363,7 @@ footer {
   .footer-wrapper {
     padding-block: 5rem;
   }
+
   .social-links {
     display: flex;
     align-items: center;
@@ -374,6 +371,7 @@ footer {
     gap: 1rem;
     cursor: pointer;
   }
+
   .footer-text {
     text-align: center;
   }
