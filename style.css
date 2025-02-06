@@ -46,7 +46,7 @@ body {
 }
 
 nav {
-  background-color: var(--darkmode-nav-background );
+  background-color: #7281a2;
   position: sticky;
   position: -webkit-sticky;
   display: flex;
