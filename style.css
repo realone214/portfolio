@@ -46,7 +46,7 @@ body {
 }
 
 nav {
-  background-color: #7281a2;
+  background-color: #7281a2e1;
   position: sticky;
   position: -webkit-sticky;
   display: flex;
@@ -54,7 +54,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
   margin: auto;
   top: 0px;
   z-index: 2;
@@ -90,6 +90,7 @@ nav {
   display: flex;
   gap: 2rem;
   list-style: none;   
+  padding-right: 5rem;
   li {
     transition: all 0.3s ease-in-out;
     &:hover {
@@ -185,7 +186,7 @@ section div {
     color: #7e84bd;
   }
   .my-skills {
-    background-color: rgb(9, 9, 68);
+   
     border-radius: 1rem;
   }
 }
